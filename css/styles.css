@@ -52,6 +52,10 @@ h1 {
 	line-height: 3.25rem;
 	letter-spacing: -0.4px;
 }
+.aboutimg{
+	height: 500px;
+	width: 1200px !important;
+}
 
 h2 {
 	color: #191e47;
