@@ -311,15 +311,17 @@ a:hover {
 	line-height: 0.875rem;
 	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
 }
-
+.bgteam{
+	background-image: url(images/team.jpg);
+}
 .navbar .navbar-brand {
 	padding-top: 0.25rem;
 	padding-bottom: 0.25rem;
 }
 
 .navbar .logo-image img {
-    width: 124px;
-	height: 32px;
+    width: 154px;
+	height: 60px;
 }
 
 .navbar .logo-text {
@@ -684,6 +686,7 @@ a:hover {
 	padding-top: 9.25rem;
 	padding-bottom: 9.75rem;
 	text-align: center;
+	/* background-image: ur; */
 }
 
 .basic-4 h4 {
@@ -993,8 +996,13 @@ a:hover {
 	.header {
 		padding-top: 11rem;
 		padding-bottom: 5em;
+		background-image: url(images/team.jpg);
 	}
 
+	.center{
+		display: flex;
+		justify-content: center;
+	}
 	.header .decoration-star {
 		top: 100px;
 		left: -150px;
