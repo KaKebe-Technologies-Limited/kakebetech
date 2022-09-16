@@ -4,10 +4,27 @@ body, html {
     line-height: 2;
 
 }
+
+.innovate{
+    background-color: blue;
+    padding: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    
+}
 .logo-image img{
     width: 200px;
     position: relative;
     align-items: center;
+}
+@media screen and (max-width:600px) {
+    .innovate{
+        margin-top: -80%;
+        border-radius: 0px;
+        display: block;
+        width: 400px;
+        background-color: none;
+    }
     
 }
 /* The hero image */
