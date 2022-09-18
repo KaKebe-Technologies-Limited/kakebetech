@@ -4,6 +4,12 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
+     <!-- Link Swiper's CSS -->
+     <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+   />
+
     <!-- SEO Meta Tags -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -93,6 +99,36 @@
         </div> <!-- end of container -->
     </nav> <!-- end of navbar -->
     <!-- end of navigation -->
+     <!-- Swiper -->
+     <div class="swiper mySwiper">
+        <div class="swiper-wrapper homebg">
+          <div class="swiper-slide homebg"> 
+            <h4></h4>
+            <img src="imgs/1.jpg" alt="">
+          </div>
+          <div class="swiper-slide homebg"> 
+            <h4></h4>
+            <img src="imgs/bg1.jpg" alt="">
+          </div>
+          <div class="swiper-slide homebg"> 
+            <h4></h4>
+            <img src="imgs/2.jpg" alt="">
+          </div>
+          <div class="swiper-slide homebg"> 
+            <h4></h4>
+            <img src="imgs/3.jpg" alt="">
+          </div>
+          <div class="swiper-slide homebg"> 
+            <h4></h4>
+            <img src="imgs/teach.jpg" alt="">
+          </div>
+          <div class="swiper-slide homebg"> 
+            <h4></h4>
+            <img src="imgs/bg2.jpg" alt="">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
     
     
       
@@ -685,5 +721,29 @@
     })();
     </script>
     <!--End of Tawk.to Script-->
+
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
 </body>
 </html>

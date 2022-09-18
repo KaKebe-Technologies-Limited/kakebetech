@@ -55,6 +55,10 @@ html {
 
 }
   
+.homebg img{
+	height: auto;
+	width: 100%;
+}
 body, p {
 	color: #6c717b; 
 	font: 400 1rem/1.625rem "Open Sans", sans-serif;
